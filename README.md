@@ -23,7 +23,7 @@ This repository contains the codes for [**DewarpNet**](https://www3.cs.stonybroo
 
 ### Inference:
 - Run:
-`python infer.py --wc_model_path ./eval/models/unetnc_doc3d.pkl --bm_model_path ./eval/models/dnetccnl_doc3d.pkl --show`
+`python3 infer.py --wc_model_path ./eval/models/unetnc_doc3d.pkl --bm_model_path ./eval/models/dnetccnl_doc3d.pkl --show`
 
 ### Evaluation (Image Metrics):
 - We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html). 
